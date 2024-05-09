@@ -1,0 +1,19 @@
+{
+  "name": "Thomas Forte",
+  "short_name": "TF",
+  "icons": [
+    {
+      "src": "/images/favicon_io/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_ioandroid-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "display": "standalone",
+  "theme_color": "#CD853F",
+  "background_color": "#CD853F"
+}
