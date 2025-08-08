@@ -1,8 +1,8 @@
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 
-import { EducationItemProps } from "./components/EducationItem";
-import { ToolKitItemProps } from "./components/ToolKit";
-import { ResumeItemProps } from "./components/ResumeItem";
+import type { EducationItemProps } from "./components/EducationItem";
+import type { ToolKitItemProps } from "./components/ToolKit";
+import type { ResumeItemProps } from "./components/ResumeItem";
 
 export interface SocialIconsConfig {
   gitHubUrl?: string;

@@ -9,7 +9,7 @@ import {
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
 
-import { Config } from "./conf.d";
+import type { Config } from "./conf.d";
 
 export const config: Config = {
   coverPage: {
