@@ -1,6 +1,6 @@
-import { Children, PropsWithChildren, ReactNode } from "react";
+import { Children, type PropsWithChildren, type ReactNode } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { IconDefinition } from "@fortawesome/free-solid-svg-icons";
+import type { IconDefinition } from "@fortawesome/free-solid-svg-icons";
 
 export interface FaListProps extends PropsWithChildren {
   icon: IconDefinition;

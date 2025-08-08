@@ -3,7 +3,7 @@ import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 import { SocialIcons } from "./SocialIcons";
 
-import { CoverPageConfig } from "../conf.d";
+import type { CoverPageConfig } from "../conf.d";
 
 export interface AboutSectionProps {
   coverPageConfig: CoverPageConfig;

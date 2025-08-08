@@ -1,17 +1,20 @@
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 import { faCheck, faTrophy } from "@fortawesome/free-solid-svg-icons";
 import { Container } from "react-bootstrap";
 
 import { CoverPage } from "./components/CoverPage";
-import { EducationItem, EducationItemProps } from "./components/EducationItem";
+import {
+  EducationItem,
+  type EducationItemProps,
+} from "./components/EducationItem";
 import { FaList } from "./components/FaList";
 import { Navigation } from "./components/Navigation";
 import { PList } from "./components/PList";
 import { ResumeItem } from "./components/ResumeItem";
 import { Section } from "./components/Section";
-import { ToolKit, ToolKitItemProps } from "./components/ToolKit";
+import { ToolKit, type ToolKitItemProps } from "./components/ToolKit";
 
-import { Config, ExperienceConfig } from "./conf.d";
+import type { Config, ExperienceConfig } from "./conf.d";
 
 export interface AppProps {
   config: Config;

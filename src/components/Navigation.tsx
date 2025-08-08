@@ -1,7 +1,7 @@
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
-import { Config } from "../conf.d";
+import type { Config } from "../conf.d";
 
 export interface NavigationProps {
   config: Config;

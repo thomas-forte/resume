@@ -1,4 +1,4 @@
-import { Children, PropsWithChildren, ReactNode } from "react";
+import { Children, type PropsWithChildren, type ReactNode } from "react";
 
 export const PList = (props: PropsWithChildren) => buildItems(props.children);
 

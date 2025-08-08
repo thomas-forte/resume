@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { IconDefinition } from "@fortawesome/free-brands-svg-icons";
+import type { IconDefinition } from "@fortawesome/free-brands-svg-icons";
 
 export interface ToolKitProps {
   toolKits: ToolKitItemProps[];
