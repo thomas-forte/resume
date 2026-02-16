@@ -1,9 +1,10 @@
-import type { PropsWithChildren } from "react";
+import type { PropsWithChildren, ReactNode } from "react";
 
 export interface ResumeItemProps extends PropsWithChildren {
   position: string;
   employer: string;
   workDates: string;
+  details: ReactNode[];
 }
 
 export const ResumeItem = (props: ResumeItemProps) => (
@@ -17,6 +18,11 @@ export const ResumeItem = (props: ResumeItemProps) => (
         {props.workDates}
       </span>
     </div>
+    <ul>
+      {props.details.map((detail, i) => (
+        <li key={i}>{detail}</li>
+      ))}
+    </ul>
     {props.children}
   </div>
 );

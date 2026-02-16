@@ -5,7 +5,6 @@ import {
   faJava,
   faLinux,
   faPython,
-  faRaspberryPi,
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
 
@@ -15,7 +14,7 @@ export const config: Config = {
   coverPage: {
     firstName: "Thomas",
     lastName: "Forte",
-    resumeUrl: "forte_resume_april_2024.pdf",
+    resumeUrl: "forte_resume_feb_2026.pdf",
     location: "Cleveland, OH",
     phoneNumber: "(216) 310-7521",
     email: "resume@mund.us",
@@ -30,158 +29,55 @@ export const config: Config = {
   showAboutLink: false,
   experiences: [
     {
-      experience: {
-        position: "Full Stack Software Engineer and IT Manager",
-        employer: "McSteen Land Surveyors",
-        workDates: "November 2018 - Today",
-      },
-      details: (
-        <ul>
-          <li>
-            Migrated over 5 million records from the legacy system into the new
-            system for a seamless transition
-          </li>
-          <li>
-            Orchestrated an ordering and workflow processing platform from the
-            ground up
-          </li>
-          <ul>
-            <li>
-              Created a Pdf generation system providing over 5,000 reports and
-              statements to clients each month
-            </li>
-            <li>
-              Manages over 7,000 employee tasks per month including processing
-              nearly 10k photos and 12k other workflow related documents
-            </li>
-            <li>
-              Automates several previously manual tasks such as pricing,
-              quoting, and scheduling tasks
-            </li>
-            <li>
-              Utilizes a stateless restful API for interfacing with web, iOS,
-              and CAD applications
-            </li>
-          </ul>
-          <li>
-            Reduced legacy application monthly operating costs by over 1,500
-          </li>
-          <li>
-            Developed a Flutter iOS application and distributed to field crews
-            to improve day to day productivity
-          </li>
-          <li>
-            Completed and released an Inspection module to add a new service
-            line to the legacy system
-          </li>
-          <li>
-            Documented policies and procedures for the IT department to
-            standardize all office equipment
-          </li>
-        </ul>
-      ),
+      position: "Principal Full Stack Software Engineer / IT Manager",
+      employer: "McSteen Land Surveyors",
+      workDates: "November 2018 - December 2025",
+      details: [
+        "Designed, developed, and supported a service-oriented platform used across web, mobile, and CAD-integrated applications",
+        "Led migration of 5M+ production records from a legacy system into a modernized architecture with zero business interruption",
+        "Built and maintained stateless RESTful APIs supporting Angular web applications, iOS clients, and third-party integrations",
+        "Developed automated data processing pipelines handling 10k+ photos and 12k+ workflow documents monthly",
+        "Implemented automated pricing, quoting, and scheduling workflows, significantly reducing manual operational effort",
+        "Created a PDF generation and reporting system delivering 5,000+ monthly reports and customer statements",
+        "Reduced legacy system operating costs by over $1,500 per month through optimization and automation",
+        "Developed and deployed a Flutter-based iOS application used by field crews to improve daily productivity",
+        "Served as primary technical owner for production systems, documentation, and internal IT service processes",
+      ],
     },
     {
-      experience: {
-        position: "Lead Senior Application Developer",
-        employer: "Nationwide Insurance",
-        workDates: "July 2018 - November 2018",
-      },
-      details: (
-        <ul>
-          <li>Team lead for all customer facing billing applications</li>
-          <li>Conducted the Angular rewrite of the legacy Java application</li>
-          <li>
-            Consulted with the billing systems team to plan for new API services
-            and to prioritize co-development
-          </li>
-        </ul>
-      ),
+      position: "Lead Senior Application Developer",
+      employer: "Nationwide Insurance",
+      workDates: "July 2018 - November 2018",
+      details: [
+        "Led the Angular rewrite of a mission-critical legacy Java billing application supporting customer-facing workflows",
+        "Acted as technical lead for frontend architecture, API integration, and performance improvements",
+        "Collaborated with backend and billing platform teams to design and prioritize new API services",
+        "Represented the application portfolio as a subject matter expert across multiple stakeholder teams",
+      ],
     },
     {
-      experience: {
-        position: "Senior Application Developer",
-        employer: "Nationwide Insurance",
-        workDates: "June 2017 - July 2018",
-      },
-      details: (
-        <ul>
-          <li>Appointed as SME for dev-ops pipelines and CI processes</li>
-          <ul>
-            <li>
-              Built and maintained shared core containers for the entire company
-            </li>
-            <li>
-              Created documentation and worked with teams to automate their
-              build processes
-            </li>
-            <li>Refined leading to reclaiming more than 8,000 hours</li>
-          </ul>
-          <li>
-            Project lead for creating a lightweight authorization system for
-            accepting guest/user-less payments
-          </li>
-          <ul>
-            <li>Processed nearly 50k logins per month</li>
-            <li>Accepted 26k payments, equating to 7.1 million dollars</li>
-          </ul>
-        </ul>
-      ),
+      position: "Senior Application Developer",
+      employer: "Nationwide Insurance",
+      workDates: "June 2017 - July 2018",
+      details: [
+        "Served as SME for CI/CD pipelines and build automation supporting multiple enterprise applications",
+        "Built and maintained shared containerized build infrastructure used company-wide",
+        "Improved deployment reliability and developer efficiency, reclaiming an estimated 8,000 engineering hours per month",
+        "Led development of a lightweight authorization system enabling guest and user-less payments",
+        "Supported systems processing 50k+ monthly logins and 26k payments totaling over $7.1M in monthly revenue",
+      ],
     },
     {
-      experience: {
-        position: "Application Developer",
-        employer: "Nationwide Insurance",
-        workDates: "May 2015 - June 2017",
-      },
-      details: (
-        <ul>
-          <li>Contributed to 6 customer facing applications</li>
-          <li>
-            Simplified onboarding and training materials to get new developers
-            up and running on their first day
-          </li>
-          <li>Chaired as Dev-ops Champion</li>
-          <ul>
-            <li>Converted all repositories from SVN to GitHub with history</li>
-            <li>Containerized my team’s build processes</li>
-            <li>
-              Automated build/test/deploy notifications utilizing chatbots
-            </li>
-          </ul>
-          <li>
-            Project lead for the partial payment project that brought in 5k
-            additional payments per month
-          </li>
-        </ul>
-      ),
-    },
-    {
-      experience: {
-        position: "Student IT Support Specialist",
-        employer: "The Ohio State University",
-        workDates: "December 2012 – May 2015",
-      },
-      details: (
-        <ul>
-          <li>
-            Administered technology services in over 150 classrooms via routine
-            maintenance and in-person support
-          </li>
-        </ul>
-      ),
-    },
-    {
-      experience: {
-        position: "Webmaster",
-        employer: "The Ohio State University",
-        workDates: "January 2015 – May 2015",
-      },
-      details: (
-        <ul>
-          <li>Created a custom Wordpress theme and plugin</li>
-        </ul>
-      ),
+      position: "Application Developer",
+      employer: "Nationwide Insurance",
+      workDates: "May 2015 - June 2017",
+      details: [
+        "Developed and maintained several customer-facing enterprise applications",
+        "Championed DevOps practices including repository standardization, build automation, and deployment notifications",
+        "Migrated all team repositories from SVN to GitHub while preserving full history",
+        "Led partial-payment initiative generating 5k+ additional customer payments per month",
+        "Simplified onboarding and training materials, enabling new developers to contribute on day one",
+      ],
     },
   ],
   education: [
@@ -194,10 +90,21 @@ export const config: Config = {
   ],
   skills: [
     <>S.O.L.I.D. Principles</>,
-    <>Problem Solving</>,
-    <>Devops</>,
-    <>Networking</>,
-    <>Document Generation</>,
+    <>
+      <b>Backend:</b> &nbsp; RESTful APIs, Python, Django, Java, Postgres,
+      Spring, SQL Server
+    </>,
+    <>
+      <b>Frontend:</b> &nbsp; Angular, React, TypeScript, JavaScript, HTML/CSS
+    </>,
+    <>
+      <b>Cloud & Infrastructure:</b> &nbsp; AWS (S3, Fargate, EC2), Terraform,
+      Linux, DNS, networking
+    </>,
+    <>
+      <b>DevOps:</b> &nbsp; GitHub Actions, CI/CD pipelines, containerization,
+      build automation
+    </>,
   ],
   toolKits: [
     { icon: faPython, description: "Python" },
@@ -207,7 +114,6 @@ export const config: Config = {
     { icon: faReact, description: "React" },
     { icon: faJava, description: "Java" },
     { icon: faAws, description: "AWS" },
-    { icon: faRaspberryPi, description: "Raspberry Pi" },
   ],
   interests: [
     <>

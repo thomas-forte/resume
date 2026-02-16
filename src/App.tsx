@@ -44,9 +44,7 @@ const buildExperienceSection = (experienceConfigs?: ExperienceConfig[]) => {
     return (
       <Section id="experience" header="Experience">
         {experienceConfigs.map((e, i) => (
-          <ResumeItem key={i} {...e.experience}>
-            {e.details}
-          </ResumeItem>
+          <ResumeItem key={i} {...e} />
         ))}
       </Section>
     );
@@ -71,7 +69,7 @@ const buildEducationSection = (educations?: EducationItemProps[]) => {
 
 const buildSkillsSection = (
   skills?: ReactNode[],
-  toolKits?: ToolKitItemProps[]
+  toolKits?: ToolKitItemProps[],
 ) => {
   if (skills?.length ?? toolKits?.length) {
     return (

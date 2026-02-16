@@ -20,10 +20,7 @@ export interface CoverPageConfig {
   socialIcons: SocialIconsConfig;
 }
 
-export interface ExperienceConfig {
-  experience: ResumeItemProps;
-  details: ReactNode;
-}
+export type ExperienceConfig = ResumeItemProps;
 
 export interface Config {
   coverPage: CoverPageConfig;
