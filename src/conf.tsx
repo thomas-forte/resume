@@ -29,6 +29,14 @@ export const config: Config = {
   showAboutLink: false,
   experiences: [
     {
+      position: "Senior Software Engineer",
+      employer: "Progressive Insurance",
+      workDates: "July 2026 - Present",
+      details: [
+        "Details to come...",
+      ],
+    },
+    {
       position: "Principal Full Stack Software Engineer / IT Manager",
       employer: "McSteen Land Surveyors",
       workDates: "November 2018 - December 2025",
